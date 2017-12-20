@@ -1,0 +1,33 @@
+Cars
+	- CAR_GENERATED_ID
+		- plate
+		- brand
+		- color
+		- model
+		- owner : "USER_ID"
+
+Parkings
+	- PARKING_GENERATED_ID
+		- plater
+		- street_name
+		- street_no
+		- timestamp
+		- parked_car : "CAR_ID"
+
+Reports
+	- REPORT_GENERATED_ID
+		- author : "USER_ID"
+		- cars_in_danger : [CAR_ID1, CAR_ID2]
+		- picture : "BASE64" / upload to storage
+		- street_name
+		- street_number
+		- timestamp
+
+Users
+	- USER_GENERATED_ID
+		- email
+		- name
+		- password
+		- cars : [CAR_ID1, CAR_ID2]
+
+

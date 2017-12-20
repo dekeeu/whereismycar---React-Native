@@ -1,0 +1,4 @@
+#Wed Dec 20 23:42:41 EET 2017
+base.0=/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

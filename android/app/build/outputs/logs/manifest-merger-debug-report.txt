@@ -1,0 +1,293 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:1:1-32:12
+	package
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:2:5-31
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.facebook.react:react-native:0.50.1] /Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:7:22-75
+uses-sdk
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [whereismycar:react-native-charts-wrapper:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-charts-wrapper/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.50.1] /Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/dekeeu/.android/build-cache/e2c8e80a2806b8b7fbdf883d82e0460b970fea6f/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/dekeeu/.android/build-cache/eda37e3d3d58e2dd565aefde2b4a070249447543/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/dekeeu/.android/build-cache/bf8b2e530ef7f908641b6d5d8c9ab7dcb8c1a03d/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/dekeeu/.android/build-cache/e097e48b77ba6a0f0cfdb0303f4e1fa5427335be/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/dekeeu/.android/build-cache/3dcf9a8647d430bfed3f0d610a0cb9a2f4a5e2f7/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/dekeeu/.android/build-cache/21c82d26ebf823014cf654f19a5fcfc70296ceaa/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/dekeeu/.android/build-cache/c4013aba2bdabb2a9651709f06b80649cabadba4/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/dekeeu/.android/build-cache/c578ccbbadfeefd6991ab054b6556464b5c6fdfa/output/AndroidManifest.xml:2:3-70
+MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/dekeeu/.android/build-cache/54564146fe9c1f51eedaa5f17785cdb9480a8958/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/dekeeu/.android/build-cache/647df06e46ce98daf91d2c186e18d92c227df393/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/dekeeu/.android/build-cache/eef5fb93b7463a12373a4cae4416f6a14b620ad0/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /Users/dekeeu/.android/build-cache/a1fb067b47e3a28e06af29593209acebe744c64c/output/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:11:9-38
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:10:9-35
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:13:5-30:19
+MERGED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:17:5-54:19
+MERGED from [com.facebook.react:react-native:0.50.1] /Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/dekeeu/.android/build-cache/c578ccbbadfeefd6991ab054b6556464b5c6fdfa/output/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/dekeeu/.android/build-cache/4d6c6a63cdb29060dcad53872105fbb1a28894ec/output/AndroidManifest.xml:2:3-17
+MERGED from [com.google.firebase:firebase-core:9.0.0] /Users/dekeeu/.android/build-cache/54564146fe9c1f51eedaa5f17785cdb9480a8958/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:9.0.0] /Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.0] /Users/dekeeu/.android/build-cache/647df06e46ce98daf91d2c186e18d92c227df393/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.0] /Users/dekeeu/.android/build-cache/eef5fb93b7463a12373a4cae4416f6a14b620ad0/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /Users/dekeeu/.android/build-cache/a1fb067b47e3a28e06af29593209acebe744c64c/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:16:7-39
+	android:allowBackup
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:15:7-33
+	android:icon
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:17:7-41
+	android:theme
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:18:7-38
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:14:7-38
+activity#com.whereismycar.MainActivity
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:19:7-28:18
+	android:label
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:21:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:23:9-51
+	android:configChanges
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:22:9-79
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:20:9-37
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:24:9-27:25
+action#android.intent.action.MAIN
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:25:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:26:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:29:7-84
+	android:name
+		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:29:17-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:13:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:14:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:15:22-77
+provider#com.fnp.reactnativesyncadapter.DummyContentProvider
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:20:9-24:39
+	android:authorities
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:22:13-65
+	android:syncable
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:24:13-36
+	android:exported
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:21:13-79
+service#com.fnp.reactnativesyncadapter.DummyAuthenticatorService
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:27:9-35:19
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:27:18-89
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:28:13-30:29
+action#android.accounts.AccountAuthenticator
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:29:17-80
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:29:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:32:13-34:57
+	android:resource
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:34:17-54
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:33:17-69
+service#com.fnp.reactnativesyncadapter.SyncService
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:38:9-48:19
+	android:exported
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:39:13-70
+intent-filter#android.content.SyncAdapter
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:41:13-43:29
+action#android.content.SyncAdapter
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:42:17-70
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:42:25-67
+meta-data#android.content.SyncAdapter
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:45:13-47:56
+	android:resource
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:47:17-53
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:46:17-59
+service#com.fnp.reactnativesyncadapter.HeadlessService
+ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:51:9-53:38
+	android:enabled
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:53:13-35
+	android:name
+		ADDED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:52:13-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:22:22-76
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /Users/dekeeu/.android/build-cache/e0e34adf34da277345e68d048bc50913121574a4/output/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.0] /Users/dekeeu/.android/build-cache/3d86bc7bbfc0a6ca35e5a6fff7dfe944ef8ac803/output/AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.0] /Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.0] /Users/dekeeu/.android/build-cache/a847d428b1f7461b15c5a8e1ba8b241a85257428/output/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.0] /Users/dekeeu/.android/build-cache/5c6f3d020e149aa1ca1b6b3fef35b5026ad6aadd/output/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/dekeeu/.android/build-cache/eef5fb93b7463a12373a4cae4416f6a14b620ad0/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/dekeeu/.android/build-cache/eef5fb93b7463a12373a4cae4416f6a14b620ad0/output/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.0.0] /Users/dekeeu/.android/build-cache/eef5fb93b7463a12373a4cae4416f6a14b620ad0/output/AndroidManifest.xml:22:13-58

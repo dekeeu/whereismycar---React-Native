@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_64693ec6a401ef8997d98b233ec4314a8cdc104b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a1444b104d20c6ecafc7af057a7df83f23bac4b">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_56a2e7cbb193324c9109169b410ab9d21ccd432d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52971b1f9b312a1ae202e3d222f3c4095a8a0a85">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_f5c3d3896afd6ed1481fca6dea887eb28b149989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-charts-wrapper/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fc45eafde583ea41c0ba73d5e4ad50a96203dd6">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_0a4a0aafeab69d1ac24485f11bcfec2c0f40e382.jar" />
+    </item>
+
+</items>
