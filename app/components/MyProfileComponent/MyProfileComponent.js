@@ -26,33 +26,22 @@ export class MyProfileComponent extends Component{
       userName: 'undefined',
       userEmail: 'undefinedEmail'
     }
-
-    /*
-    this.cars_list = [
-      new CarComponent("1", "seat", "ibiza", "blue"),
-      new CarComponent("2", "mazda", "cx-7", "red"),
-      new CarComponent("3", "bmw", "x6", "white"),
-      new CarComponent("4", "fiat", "punto", "blue"),
-      new CarComponent("5", "audi", "a7", "black"),
-      new CarComponent("6", "bmw", "5series", "orange")
-    ]
-    */
   }
 
   componentDidMount(){
+      //console.log('2k18');
       var user = firebase.auth().currentUser;
+      //console.log(user);
 
       if(user != null){
         console.log('Utilizator curent: ' + user.uid);
-
-        /*
-        this.setState({
-          userEmail: user.email,
-          userNmae: user.displayName
-        })
-        */
         this.loadUserData();
       }else{
+        console.log('User is null');
+        //console.log(this.props);
+        //console.log(this.props.navigation);
+
+
         const resetAction = NavigationActions.reset({
           index: 0,
           actions: [
@@ -61,6 +50,14 @@ export class MyProfileComponent extends Component{
         })
 
         this.props.navigation.dispatch(resetAction)
+
+        /*
+        const goLogin = NavigationActions.navigate({
+          routeName: 'Login'
+        });
+
+        this.props.navigation.dispatch(goLogin);
+        */
       }
   }
 
@@ -91,6 +88,12 @@ export class MyProfileComponent extends Component{
           <Text style={styles.text}>
             My Cars
           </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          onPress={() => navigate('ListReports', {})}
+          style={styles.button}>
+          <Text style={styles.text}>List Reports</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -139,7 +142,7 @@ export class MyProfileComponent extends Component{
     AsyncStorage.getItem('user_data')
       .then((user_data_json) => {
         let user_data = JSON.parse(user_data_json);
-        console.log(user_data);
+        //console.log(user_data);
         this.setState({
           user: user_data,
           userName: user_data.displayName,

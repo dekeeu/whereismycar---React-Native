@@ -55,6 +55,11 @@ export class RegisterComponent extends Component{
       .then(function(){
         alert('Account created!');
       }).then(function(){
+        console.log(firebase.auth().currentUser.uid);
+        firebase.database().ref('/Users').child(firebase.auth().currentUser.uid).child('userIsAdmin').set(false);
+        firebase.database().ref('/Users').child(firebase.auth().currentUser.uid).set({
+          email: this.state.email
+        });
         this.goToLogin();
       })
       .catch(function(error){

@@ -3,12 +3,48 @@
 
     <item
         is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-fetch-blob/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="89130388da2ea73dd7ef12caea950c8abab7d44e">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_e9cd04f6a52e231ccfaf74c7f247c299707fd47a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-fetch-blob/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="89130388da2ea73dd7ef12caea950c8abab7d44e">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_e9cd04f6a52e231ccfaf74c7f247c299707fd47a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_880343af5d1ccc5da3575bb681915f37389f9b9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_64693ec6a401ef8997d98b233ec4314a8cdc104b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/.android/build-cache/a1fb067b47e3a28e06af29593209acebe744c64c/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_891406231f24e1ac0017ff408d415fd6aa8d452d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,10 +66,73 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1a1444b104d20c6ecafc7af057a7df83f23bac4b">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_56a2e7cbb193324c9109169b410ab9d21ccd432d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_efc48202d4d5dbd9c25e612173c858fbf4524399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_efc48202d4d5dbd9c25e612173c858fbf4524399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_62a67001cf48efe34bdc7b0befd740bb7452508d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-charts-wrapper/android/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
+        sha1="8fc45eafde583ea41c0ba73d5e4ad50a96203dd6">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_0a4a0aafeab69d1ac24485f11bcfec2c0f40e382.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/.android/build-cache/a1fb067b47e3a28e06af29593209acebe744c64c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_267fbaa84883d7e103a046f0e15139038ddc11ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="52971b1f9b312a1ae202e3d222f3c4095a8a0a85">
+        <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_f5c3d3896afd6ed1481fca6dea887eb28b149989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-charts-wrapper/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
         sha1="8fc45eafde583ea41c0ba73d5e4ad50a96203dd6">
         <dex dex="/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/pre-dexed/debug/classes_0a4a0aafeab69d1ac24485f11bcfec2c0f40e382.jar" />
     </item>

@@ -1,35 +1,19 @@
 [
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
         "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
+        "source": "/Users/dekeeu/.android/build-cache/1e813d0277624c0696f6c2cbe304c298858540c1/output/res/color/com_facebook_button_text_color.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
@@ -40,8 +24,12 @@
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
@@ -52,20 +40,8 @@
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_plus_signin_btn_text_light.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
@@ -76,18 +52,6 @@
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_material_light.xml"
     },
@@ -96,12 +60,12 @@
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
@@ -120,31 +84,115 @@
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_plus_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
         "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/com_facebook_send_button_text_color.xml",
+        "source": "/Users/dekeeu/.android/build-cache/39eb5b13ed9d89d7c1c3985c8a128464a6db6c8d/output/res/color/com_facebook_send_button_text_color.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
         "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_tint_default.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/dekeeu/.android/build-cache/dab76db0ebe155c74a7a9a0914e6cd8bc68b8a0c/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/color/abc_tint_seek_thumb.xml"
     }
 ]

@@ -122,7 +122,7 @@ export class AddCarComponent extends Component{
           onPress={() => this.addCar()}
         underlayColor='#dddddd'>
           <Text style={styles.btnText}>Add !</Text>
-          </TouchableHighlight>
+        </TouchableHighlight>
 
 
       </View>

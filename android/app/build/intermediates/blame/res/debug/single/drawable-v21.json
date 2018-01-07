@@ -16,6 +16,14 @@
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/dekeeu/.android/build-cache/571274fc185e9e7761cbaa464d33e2a0c8dd53cf/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/drawable-v21/notification_action_background.xml"
     },

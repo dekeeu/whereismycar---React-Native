@@ -20,6 +20,15 @@ import * as firebase from 'firebase';
 
 import PieChartScreen from './../OtherComponents/PieChartScreen';
 
+class CarStatsEntry{
+  constructor(carId, carBrand, carModel, carUsageNumber){
+    this.Id = carId;
+    this.CarUsageNumber = carUsageNumber;
+    this.Brand = carBrand;
+    this.Model = carModel;
+  }
+}
+
 export class ListCarsComponent extends Component{
 
   constructor(props){
@@ -34,11 +43,14 @@ export class ListCarsComponent extends Component{
       pieValues: []
     }
 
+    this.pieValues_ = [];
+
 
     this.editCar = this.editCar.bind(this);
     this.removeCar = this.removeCar.bind(this);
     this.onRefresh = this.onRefresh.bind(this);
 
+    this.reloadStatistics = this.reloadStatistics.bind(this);
 
     this.firebaseCarsRef = null;
     this.firebaseCarDetailsRef = null;
@@ -46,42 +58,53 @@ export class ListCarsComponent extends Component{
   }
 
   componentDidMount(){
-    console.log('DidMount');
+    console.log('Cars - DidMount');
     var user = firebase.auth().currentUser;
 
     if(user != null){
       this.firebaseCarDetailsRef = firebase.database().ref('/Cars');
 
       this.firebaseCarDetailsRef.on('child_added', (dSnapshot) => {
+        console.log('CAR ADDED');
 
         if(dSnapshot.val().Owner == user.uid){
-          var _car = new CarComponent(dSnapshot.key, dSnapshot.val().Brand, dSnapshot.val().Model, dSnapshot.val().Color, dSnapshot.val().LicensePlateNumber,dSnapshot.val().Owner, dSnapshot.val().UsageNumber);
+          var _car = new CarComponent(
+            dSnapshot.key,
+            dSnapshot.val().Brand,
+            dSnapshot.val().Model,
+            dSnapshot.val().Color,
+            dSnapshot.val().LicensePlateNumber,
+            dSnapshot.val().Owner,
+            dSnapshot.val().UsageNumber
+          );
 
           this.cars.push(_car);
 
-          this.state.pieValues.push({
+          var carInfo = {
+            id: dSnapshot.key,
             value: Number.parseInt(_car.getUsageNumber()),
             label: _car.getBrand() + ' ' + _car.getModel()
-          });
+          };
 
+          this.pieValues_.push(carInfo);
+          console.log(this.pieValues_);
 
+          // {plateNumber: 'BT96HAK', value: 150, label: 'Seat Ibiza'}
 
           this.setState({
             carSource: this.state.carSource.cloneWithRows(this.cars)
           });
-
-
-
       }
 
       });
 
       this.firebaseCarDetailsRef.on('child_changed', (dSnapshot) => {
+
         console.log('A car was changed !');
 
         if(dSnapshot.val().Owner == user.uid){
 
-          console.log("Updated car");
+          //console.log("Updated car");
 
           var dS = [];
           dS = this.cars.slice();
@@ -107,15 +130,40 @@ export class ListCarsComponent extends Component{
 
     }
 
-    console.log('ListCars loaded');
+    //console.log('ListCars loaded');
   }
 
   componentWillMount(){
-    console.log('WillMount');
+    //console.log('WillMount');
   }
 
   componentWillUnmount(){
-    console.log("PAAAA");
+    //console.log("PAAAA");
+  }
+
+  reloadStatistics(){
+    console.log(this.cars[0]);
+    this.pieValues_ = [];
+
+    //console.log(this.cars[0].getID());
+
+    for(i=0; i<this.cars.length;i++){
+      var carInfo = {
+        id: this.cars[i].getID(),
+        value: Number.parseInt(this.cars[i].getUsageNumber()),
+        label: this.cars[i].getBrand() + ' ' + this.cars[i].getModel()
+      };
+
+      this.pieValues_.push(carInfo);
+
+      console.log(this.cars[i].getID());
+    }
+
+
+    console.log('La sfarsit');
+    console.log(this.pieValues_);
+
+
   }
 
   removeCar(rowData){
@@ -142,24 +190,29 @@ export class ListCarsComponent extends Component{
       <TouchableOpacity
         style = {{
           height: 60,
-          borderRadius: 4,
+          //borderRadius: 4,
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
           borderWidth: 0.5,
           borderColor: 'grey',
         }}
         onPress = {() => {
           console.log("PIEVALORI:");
-          console.log(this.state.pieValues);
+          console.log(this.pieValues_);
           navigate("EditCar", {
             item: rowData,
             update: this.editCar,
             remove: this.removeCar,
-            pieval: this.state.pieValues,
-            refresh: this.onRefresh
+            //pieval: this.state.pieValues,
+            pieval: this.pieValues_,
+            refresh: this.onRefresh,
+            reloadStats: this.reloadStatistics
 
           });
         }}
       >
-        <Text style={{flex: 1, fontSize: 16}}>
+        <Text style={styles.rowText}>
           {rowData.getBrand()} {rowData.getModel()}
         </Text>
       </TouchableOpacity>
@@ -167,7 +220,7 @@ export class ListCarsComponent extends Component{
   }
 
   onRefresh() {
-    console.log('Refresh');
+    //console.log('Refresh');
     let cars2 = this.cars.slice();
 
     this.setState({
@@ -218,6 +271,14 @@ const styles = StyleSheet.create({
   car:{
     flex: 1,
     fontSize: 16
+  },
+
+  rowText:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: 20,
+    fontWeight: 'bold'
   }
 
 });

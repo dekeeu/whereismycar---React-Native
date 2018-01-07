@@ -26,8 +26,8 @@ import {PieChart} from 'react-native-charts-wrapper';
 export class EditCarComponent extends Component{
   constructor(props){
     super(props);
-    console.log("EDITCARCONSTRUCTOR");
-    console.log(props);
+    //console.log("EDITCARCONSTRUCTOR");
+    //console.log(props);
 
     this.Brand = '';
     this.Model = '';
@@ -35,8 +35,21 @@ export class EditCarComponent extends Component{
     this.LicensePlateNumber = '';
     this.UsageNumber = 0;
 
+    this.pieValues = [];
+
     //this.pieValues = props.pieValues;
 
+    //console.log(this);
+
+    if(this.props.navigation.state.params){
+      if(this.props.navigation.state.params.pieval){
+        this.pieValues = this.props.navigation.state.params.pieval;
+        //console.log('------>');
+        //console.log(this.pieValues);
+        //console.log('------->More------->');
+        //console.log(this.props.navigation);
+      }
+    }
 
     this.state = {
       legend: {
@@ -51,7 +64,7 @@ export class EditCarComponent extends Component{
 
         dataSets: [{
 
-          values: this.props.navigation.state.params.pieval,
+          values: this.pieValues,
 
 
           label: 'Most parked cars',
@@ -75,7 +88,7 @@ export class EditCarComponent extends Component{
   }
 
   componentDidMount(){
-    console.log("DID");
+    //console.log("DID");
 
 
   }
@@ -103,17 +116,18 @@ export class EditCarComponent extends Component{
     //this.pieValues = _pieValues;
 
     let refresh = this.props.navigation.state.params.refresh;
+    let reloadStats = this.props.navigation.state.params.reloadStats;
 
     //console.log(stats);
 
-    console.log("From edit: " + carItem);
+    //console.log("From edit: " + carItem);
 
     this.Brand = carItem.getBrand();
     this.Model = carItem.getModel();
     this.Color = carItem.getColor();
     this.UsageNumber = carItem.getUsageNumber();
 
-    console.log("UsssssaGeNumber:" + this.UsageNumber);
+    //console.log("UsssssaGeNumber:" + this.UsageNumber);
 
     this.LicensePlateNumber = carItem.getLicensePlateNumber();
 
@@ -172,6 +186,7 @@ export class EditCarComponent extends Component{
               carItem.setUsageNumber(Number.parseInt(this.UsageNumber));
 
               editCar(carItem);
+              reloadStats();
               refresh();
               goBack();
             }}

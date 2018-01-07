@@ -4,12 +4,16 @@
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/anim/abc_popup_enter.xml"
     },
     {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/res/anim/catalyst_push_up_in.xml"
+    },
+    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
         "source": "/Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
-        "source": "/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/res/anim/catalyst_push_up_in.xml"
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/anim/tooltip_exit.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
@@ -82,6 +86,10 @@
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/catalyst_slide_down.xml",
         "source": "/Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/dekeeu/.android/build-cache/e4f1d8180347a7791c7605bee8998debf5ad43bd/output/res/anim/tooltip_enter.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",

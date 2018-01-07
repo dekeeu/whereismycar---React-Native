@@ -24,11 +24,19 @@ import {SendEmailComponent} from './app/components/SendEmailComponent/SendEmailC
 
 import {MyProfileComponent} from './app/components/MyProfileComponent/MyProfileComponent';
 import { StackNavigator } from 'react-navigation';
+import { TabNavigator } from 'react-navigation';
+import { DrawerNavigator } from 'react-navigation';
+
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
 import {LoginComponent} from './app/components/LoginComponent/LoginComponent';
 
 import {RegisterComponent} from './app/components/RegisterComponent/RegisterComponent';
+
+import {ListReportsComponent} from './app/components/ListReportsComponent/ListReportsComponent';
+
+import {AddReportComponent} from './app/components/AddReportComponent/AddReportComponent';
 
 import * as firebase from 'firebase';
 
@@ -49,50 +57,92 @@ const syncInterval = 60; // 1 minute
 const syncFlexTime = 15; // 15 seconds
 
 const StackNavigatorApp = StackNavigator({
+
   MyProfile: {
     screen: MyProfileComponent,
-    tabBarLabel: 'My Profile',
-    headerTitle: 'My Profile'
+    navigationOptions:{
+      headerTitle: 'My Profile',
+      tabBarLabel: 'My Profile'
+    }
+  },
+
+  ListReports:{
+    screen: ListReportsComponent,
+    navigationOptions:{
+      headerTitle: 'List Reports',
+      tabBarLabel: 'List Reports'
+    }
   },
 
   Contact:{
     screen: SendEmailComponent,
-    tabBarLabel: 'Send email',
-    headerTitle: 'Send email'
+    navigationOptions:{
+      headerTitle: 'Send email',
+      tabBarLabel: 'Send email'
+    }
   },
 
   AddCar: {
     screen: AddCarComponent,
-    tabBarLabel: 'Add a Car',
-    headerTitle: 'Add a Car'
+    navigationOptions:{
+      headerTitle: 'Add a Car',
+      tabBarLabel: 'Add a Car'
+    }
   },
 
   ListCars: {
     screen: ListCarsComponent,
-    tabBarLabel: 'List of Cars',
-    headerTitle: 'List of Cars'
+    navigationOptions:{
+      headerTitle: 'List of Cars',
+      tabBarLabel: 'List of Cars'
+    }
   },
 
   EditCar:{
     screen: EditCarComponent,
-    tabBarLabel: 'Edit Car',
-    headerTitle: 'Edit Car'
+    navigationOptions:{
+      headerTitle: 'Edit Car',
+      tabBarLabel: 'Edit Car'
+    }
   },
 
   Login:{
     screen: LoginComponent,
-    tabBarLabel: 'Login',
-    headerTitle: 'Login'
+    navigationOptions:{
+      headerTitle: 'Login',
+      tabBarLabel: 'Login'
+    }
   },
 
   Register:{
     screen: RegisterComponent,
-    tabBarLabel: 'Register',
-    headerTitle: 'Register'
+    navigationOptions:{
+      headerTitle: 'Register',
+      tabBarLabel: 'Register'
+    }
+  },
+
+  AddReport: {
+    screen: AddReportComponent,
+    navigationOptions:{
+      headerTitle: 'Add a Report',
+      tabBarLabel: 'Add a Report'
+    }
+  },
+
+
+});
+
+/*
+
+const DrawerNavigatorApp = DrawerNavigator({
+  Home: {
+    screen: StackNavigatorApp
   }
+});
 
+*/
 
-})
 
 export default class whereismycar extends Component{
   componentDidMount(){
@@ -109,4 +159,4 @@ export default class whereismycar extends Component{
 }
 
 AppRegistry.registerComponent('whereismycar', () => whereismycar);
-AppRegistry.registerHeadlessTask('TASK_SYNC_ADAPTER', () => TestTask);
+//AppRegistry.registerHeadlessTask('TASK_SYNC_ADAPTER', () => TestTask);

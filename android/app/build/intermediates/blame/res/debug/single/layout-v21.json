@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/dekeeu/.android/build-cache/571274fc185e9e7761cbaa464d33e2a0c8dd53cf/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/dekeeu/.android/build-cache/571274fc185e9e7761cbaa464d33e2a0c8dd53cf/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/layout-v21/notification_template_icon_group.xml"
     },
@@ -8,8 +16,16 @@
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/layout-v21/notification_action.xml"
     },
     {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/dekeeu/.android/build-cache/571274fc185e9e7761cbaa464d33e2a0c8dd53cf/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/dekeeu/.android/build-cache/18fcbeb53f0d3cc995a8c664b9ed4aee722d663b/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/dekeeu/.android/build-cache/571274fc185e9e7761cbaa464d33e2a0c8dd53cf/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/whereismycar/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",

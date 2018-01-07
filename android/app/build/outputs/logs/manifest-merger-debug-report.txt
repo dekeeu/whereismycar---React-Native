@@ -29,6 +29,8 @@ MERGED from [com.facebook.react:react-native:0.50.1] /Users/dekeeu/.android/buil
 		ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [whereismycar:react-native-vector-icons:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-vector-icons/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [whereismycar:react-native-fetch-blob:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-fetch-blob/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 MERGED from [whereismycar:react-native-charts-wrapper:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-charts-wrapper/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 MERGED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.50.1] /Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/AndroidManifest.xml:7:5-9:41
@@ -60,6 +62,7 @@ MERGED from [com.android.support:support-v4:23.0.1] /Users/dekeeu/.android/build
 		INJECTED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/android/app/src/main/AndroidManifest.xml:13:5-30:19
+MERGED from [whereismycar:react-native-fetch-blob:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-fetch-blob/android/build/intermediates/bundles/default/AndroidManifest.xml:11:5-12:19
 MERGED from [whereismycar:react-native-sync-adapter:unspecified] /Users/dekeeu/Desktop/Faculta/MyFking3rdYear/Mobile/Proiect React Native/node_modules/react-native-sync-adapter/android/build/intermediates/bundles/default/AndroidManifest.xml:17:5-54:19
 MERGED from [com.facebook.react:react-native:0.50.1] /Users/dekeeu/.android/build-cache/04a7b668375c2283bc236c4e51546657f1b8d509/output/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/dekeeu/.android/build-cache/8c7acb7cac20f2fa4e3968232906fc680ab52f1f/output/AndroidManifest.xml:22:5-20

@@ -5,7 +5,8 @@ import {
   Text,
   TextInput,
   View,
-  AsyncStorage
+  AsyncStorage,
+  Image
 } from 'react-native';
 
 import CustomButtonComponent from '../CustomButtonComponent/CustomButtonComponent';
@@ -14,22 +15,18 @@ import CustomHeaderComponent from '../CustomHeaderComponent/CustomHeaderComponen
 import RegisterComponent from '../RegisterComponent/RegisterComponent';
 import MyProfileComponent from '../MyProfileComponent/MyProfileComponent';
 
-import firebase from 'firebase';
+import * as firebase from 'firebase';
 
 import { NavigationActions } from 'react-navigation';
 
-export class LoginComponent extends Component{
-  static navigationOptions = {
-    tabBarLabel: 'Login',
-    tabBarIcon: ({tintColor}) => (
-      <Image
-        source = {require('../../icons/login.png')}
-        style = {[styles.icon, {tintColor: tintColor}]}
-          />
+//import FBSDK, { LoginManager, AccessToken } from 'react-native-fbsdk'
 
-          ),
-    showIcon: true
-    };
+
+export class LoginComponent extends Component{
+
+  componentWillMount(){
+    console.log('Login Mount!');
+  }
 
   constructor(props){
     super(props);
@@ -41,26 +38,54 @@ export class LoginComponent extends Component{
     }
   }
 
+/*
+  _fbAuth(){
+    LoginManager.logInWithReadPermissions(['public_profile', 'email']).then(
+      function(result){
+        if(result.isCancelled){
+          alert('Login cancelled');
+        }else{
+          AccessToken.getCurrentAccessToken().then((accessTokenData) => {
+            const credential = firebase.auth().FacebookAuthProvider.credential(accessTokenData.accessToken);
+            firebase.auth().signInWithCredential(credential).then((result)=>{
+
+            }, (error)=>{
+              console.log(error);
+            })
+          }, (error =>{
+            console.log('Some error occured ' + error);
+          }))
+        }
+      },
+      function(error){
+        alert('Login fail with error: ' + error);
+      }
+    )
+  }
+*/
+
   login(){
     this.setState({
       loaded: false
     });
 
-    console.log('----->Login action')
+    //console.log('----->Login action')
 
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
       .then(function(user){
-        console.log('--->SignedIn');
-        console.log(user);
+        //console.log('--->SignedIn');
+
         AsyncStorage.setItem('user_data', JSON.stringify(user));
+        //AsyncStorage.setItem('user_data', JSON.stringify(userData));
 
         const resetAction = NavigationActions.reset({
           index: 0,
           actions: [
             NavigationActions.navigate({ routeName: 'MyProfile'})
           ]
-        })
-        this.props.navigation.dispatch(resetAction)
+        });
+
+        this.props.navigation.dispatch(resetAction);
 
       }.bind(this))
       .catch(function(error){
@@ -102,6 +127,10 @@ export class LoginComponent extends Component{
     this.props.navigation.dispatch(resetAction)
 
     //this.props.navigation.navigate('Register');
+  }
+
+  loginWithFacebook(){
+
   }
 
   render(){
